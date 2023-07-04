@@ -1,0 +1,10 @@
+REPOSITORY           TAG       IMAGE ID       CREATED        SIZE
+<none>               <none>    2e5b7702a783   44 hours ago   2.23GB
+<none>               <none>    03a1d44eff1c   44 hours ago   2.23GB
+<none>               <none>    50828f0def1e   44 hours ago   2.23GB
+<none>               <none>    3b7ff316b170   44 hours ago   2.23GB
+<none>               <none>    80fd8173ca69   45 hours ago   2.23GB
+<none>               <none>    885cc33a47fe   45 hours ago   2.23GB
+pytorch/torchserve   latest    68a3fcae81af   2 weeks ago    2.03GB
+
+docker exec -u 0 -it learning-docker_fcn_1 bash

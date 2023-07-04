@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  fcn:
+    image: pytorch/torchserve
+    build: .
+    command: torchserve --start --model-store model-store/ --models fcn=fcn_resnet_101.mar --ncs
+    volumes:
+      - .:/my_app_dir
+    ports:
+      - "8001:8080"
+    # networks:
+    #   - network
+    # links:
+    #   - run_serve
+
+  # run_serve:
+  #   command: curl http://127.0.0.1:8001/predictions/fcn -T image_segmenter/persons.jpg
+  #   networks:
+  #     - network
