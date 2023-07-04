@@ -1,6 +1,6 @@
 # learning-docker
 
-Creates the docker image: docker-compose up -d
+Creates the docker image: docker-compose up -d | docker-compose up -d --build
 
 Stopping the docker image: docker-compose down
 
